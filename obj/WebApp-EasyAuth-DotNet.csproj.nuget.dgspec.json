@@ -1,0 +1,81 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/PC-Bernhard/Downloads/uebungCloud/WebApp-EasyAuth-DotNet.csproj": {}
+  },
+  "projects": {
+    "/Users/PC-Bernhard/Downloads/uebungCloud/WebApp-EasyAuth-DotNet.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/PC-Bernhard/Downloads/uebungCloud/WebApp-EasyAuth-DotNet.csproj",
+        "projectName": "WebApp-EasyAuth-DotNet",
+        "projectPath": "/Users/PC-Bernhard/Downloads/uebungCloud/WebApp-EasyAuth-DotNet.csproj",
+        "packagesPath": "/Users/PC-Bernhard/.nuget/packages/",
+        "outputPath": "/Users/PC-Bernhard/Downloads/uebungCloud/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/PC-Bernhard/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Azure.Storage.Blobs": {
+              "target": "Package",
+              "version": "[12.7.0, )"
+            },
+            "Microsoft.Identity.Web": {
+              "target": "Package",
+              "version": "[1.*, )"
+            },
+            "Microsoft.Identity.Web.UI": {
+              "target": "Package",
+              "version": "[1.*, )"
+            },
+            "Microsoft.IdentityModel.Logging": {
+              "target": "Package",
+              "version": "[6.24.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/Cellar/dotnet/6.0.110/libexec/sdk/6.0.110/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
